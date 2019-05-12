@@ -44,6 +44,15 @@
   //       background: url('../img/portrait_small.jpg');
   //       width: 150px;
   //   }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1";
+
+    grid-template-columns: 1fr;
+  }
 }
 
 //smartphones
